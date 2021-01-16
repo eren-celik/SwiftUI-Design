@@ -10,6 +10,7 @@ import SwiftUI
 struct Home: View {
     @State var showProfile = false
     @State var viewState = CGSize.zero
+    @State var showUptade = false
     var body: some View {
         ZStack {
             Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1))

@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1018A8B825B3275600908C37 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1018A8B725B3275600908C37 /* UpdateList.swift */; };
+		1018A8C725B32DC100908C37 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1018A8C625B32DC100908C37 /* UpdateDetail.swift */; };
+		1018A8CA25B3358000908C37 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1018A8C925B3358000908C37 /* UpdateStore.swift */; };
+		1018A8CD25B342C400908C37 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1018A8CC25B342C400908C37 /* TabBar.swift */; };
+		1018A8D025B3448000908C37 /* Lottie in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8CF25B3448000908C37 /* Lottie */; };
+		1018A8D325B3472500908C37 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1018A8D225B3472500908C37 /* RingView.swift */; };
+		1018A8E725B35BD900908C37 /* Kufam-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8D625B35BD900908C37 /* Kufam-VariableFont_wght.ttf */; };
+		1018A8E825B35BD900908C37 /* Kufam-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8D725B35BD900908C37 /* Kufam-Italic-VariableFont_wght.ttf */; };
+		1018A8E925B35BD900908C37 /* Kufam-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8D925B35BD900908C37 /* Kufam-ExtraBoldItalic.ttf */; };
+		1018A8EA25B35BD900908C37 /* Kufam-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8DA25B35BD900908C37 /* Kufam-Bold.ttf */; };
+		1018A8EB25B35BD900908C37 /* Kufam-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8DB25B35BD900908C37 /* Kufam-BlackItalic.ttf */; };
+		1018A8EC25B35BD900908C37 /* Kufam-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8DC25B35BD900908C37 /* Kufam-MediumItalic.ttf */; };
+		1018A8ED25B35BD900908C37 /* Kufam-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8DD25B35BD900908C37 /* Kufam-Medium.ttf */; };
+		1018A8EE25B35BD900908C37 /* Kufam-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8DE25B35BD900908C37 /* Kufam-Italic.ttf */; };
+		1018A8EF25B35BD900908C37 /* Kufam-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8DF25B35BD900908C37 /* Kufam-SemiBoldItalic.ttf */; };
+		1018A8F025B35BD900908C37 /* Kufam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8E025B35BD900908C37 /* Kufam-Regular.ttf */; };
+		1018A8F125B35BD900908C37 /* Kufam-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8E125B35BD900908C37 /* Kufam-Black.ttf */; };
+		1018A8F225B35BD900908C37 /* Kufam-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8E225B35BD900908C37 /* Kufam-ExtraBold.ttf */; };
+		1018A8F325B35BD900908C37 /* Kufam-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8E325B35BD900908C37 /* Kufam-SemiBold.ttf */; };
+		1018A8F425B35BD900908C37 /* Kufam-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8E425B35BD900908C37 /* Kufam-BoldItalic.ttf */; };
+		1018A8F525B35BD900908C37 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8E525B35BD900908C37 /* OFL.txt */; };
+		1018A8F625B35BD900908C37 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1018A8E625B35BD900908C37 /* README.txt */; };
+		1018A8F925B35C0900908C37 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1018A8F825B35C0900908C37 /* Modifiers.swift */; };
 		10A624B825AB4A90001F090A /* DesignCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A624B725AB4A90001F090A /* DesignCodeApp.swift */; };
 		10A624BA25AB4A90001F090A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A624B925AB4A90001F090A /* ContentView.swift */; };
 		10A624BC25AB4A92001F090A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A624BB25AB4A92001F090A /* Assets.xcassets */; };
@@ -17,6 +40,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1018A8B725B3275600908C37 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		1018A8C625B32DC100908C37 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		1018A8C925B3358000908C37 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		1018A8CC25B342C400908C37 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		1018A8CF25B3448000908C37 /* Lottie */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Lottie; sourceTree = "<group>"; };
+		1018A8D225B3472500908C37 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		1018A8D625B35BD900908C37 /* Kufam-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		1018A8D725B35BD900908C37 /* Kufam-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		1018A8D925B35BD900908C37 /* Kufam-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		1018A8DA25B35BD900908C37 /* Kufam-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-Bold.ttf"; sourceTree = "<group>"; };
+		1018A8DB25B35BD900908C37 /* Kufam-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-BlackItalic.ttf"; sourceTree = "<group>"; };
+		1018A8DC25B35BD900908C37 /* Kufam-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-MediumItalic.ttf"; sourceTree = "<group>"; };
+		1018A8DD25B35BD900908C37 /* Kufam-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-Medium.ttf"; sourceTree = "<group>"; };
+		1018A8DE25B35BD900908C37 /* Kufam-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-Italic.ttf"; sourceTree = "<group>"; };
+		1018A8DF25B35BD900908C37 /* Kufam-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		1018A8E025B35BD900908C37 /* Kufam-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-Regular.ttf"; sourceTree = "<group>"; };
+		1018A8E125B35BD900908C37 /* Kufam-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-Black.ttf"; sourceTree = "<group>"; };
+		1018A8E225B35BD900908C37 /* Kufam-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1018A8E325B35BD900908C37 /* Kufam-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-SemiBold.ttf"; sourceTree = "<group>"; };
+		1018A8E425B35BD900908C37 /* Kufam-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufam-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1018A8E525B35BD900908C37 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		1018A8E625B35BD900908C37 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		1018A8F825B35C0900908C37 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		10A624B425AB4A90001F090A /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A624B725AB4A90001F090A /* DesignCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeApp.swift; sourceTree = "<group>"; };
 		10A624B925AB4A90001F090A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +85,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1018A8D525B35BD900908C37 /* Kufam */ = {
+			isa = PBXGroup;
+			children = (
+				1018A8D625B35BD900908C37 /* Kufam-VariableFont_wght.ttf */,
+				1018A8D725B35BD900908C37 /* Kufam-Italic-VariableFont_wght.ttf */,
+				1018A8D925B35BD900908C37 /* Kufam-ExtraBoldItalic.ttf */,
+				1018A8D825B35BD900908C37 /* static */,
+				1018A8E525B35BD900908C37 /* OFL.txt */,
+				1018A8E625B35BD900908C37 /* README.txt */,
+			);
+			path = Kufam;
+			sourceTree = "<group>";
+		};
+		1018A8D825B35BD900908C37 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				1018A8DA25B35BD900908C37 /* Kufam-Bold.ttf */,
+				1018A8DB25B35BD900908C37 /* Kufam-BlackItalic.ttf */,
+				1018A8DC25B35BD900908C37 /* Kufam-MediumItalic.ttf */,
+				1018A8DD25B35BD900908C37 /* Kufam-Medium.ttf */,
+				1018A8DE25B35BD900908C37 /* Kufam-Italic.ttf */,
+				1018A8DF25B35BD900908C37 /* Kufam-SemiBoldItalic.ttf */,
+				1018A8E025B35BD900908C37 /* Kufam-Regular.ttf */,
+				1018A8E125B35BD900908C37 /* Kufam-Black.ttf */,
+				1018A8E225B35BD900908C37 /* Kufam-ExtraBold.ttf */,
+				1018A8E325B35BD900908C37 /* Kufam-SemiBold.ttf */,
+				1018A8E425B35BD900908C37 /* Kufam-BoldItalic.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
 		10A624AB25AB4A90001F090A = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +137,18 @@
 			children = (
 				10A624B725AB4A90001F090A /* DesignCodeApp.swift */,
 				10A624B925AB4A90001F090A /* ContentView.swift */,
+				1018A8D225B3472500908C37 /* RingView.swift */,
+				1018A8F825B35C0900908C37 /* Modifiers.swift */,
 				10CEC48925ACD12B00F6CFC2 /* MenuView.swift */,
+				1018A8B725B3275600908C37 /* UpdateList.swift */,
+				1018A8C625B32DC100908C37 /* UpdateDetail.swift */,
+				1018A8C925B3358000908C37 /* UpdateStore.swift */,
 				10CEC48C25ACD72A00F6CFC2 /* Home.swift */,
 				10CEC48F25ACDEEB00F6CFC2 /* HomeView.swift */,
+				1018A8CC25B342C400908C37 /* TabBar.swift */,
 				10A624BB25AB4A92001F090A /* Assets.xcassets */,
+				1018A8D525B35BD900908C37 /* Kufam */,
+				1018A8CF25B3448000908C37 /* Lottie */,
 				10A624C025AB4A92001F090A /* Info.plist */,
 				10A624BD25AB4A92001F090A /* Preview Content */,
 			);
@@ -135,8 +220,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1018A8F225B35BD900908C37 /* Kufam-ExtraBold.ttf in Resources */,
 				10A624BF25AB4A92001F090A /* Preview Assets.xcassets in Resources */,
 				10A624BC25AB4A92001F090A /* Assets.xcassets in Resources */,
+				1018A8E725B35BD900908C37 /* Kufam-VariableFont_wght.ttf in Resources */,
+				1018A8EA25B35BD900908C37 /* Kufam-Bold.ttf in Resources */,
+				1018A8EC25B35BD900908C37 /* Kufam-MediumItalic.ttf in Resources */,
+				1018A8F125B35BD900908C37 /* Kufam-Black.ttf in Resources */,
+				1018A8E925B35BD900908C37 /* Kufam-ExtraBoldItalic.ttf in Resources */,
+				1018A8EF25B35BD900908C37 /* Kufam-SemiBoldItalic.ttf in Resources */,
+				1018A8ED25B35BD900908C37 /* Kufam-Medium.ttf in Resources */,
+				1018A8F425B35BD900908C37 /* Kufam-BoldItalic.ttf in Resources */,
+				1018A8EB25B35BD900908C37 /* Kufam-BlackItalic.ttf in Resources */,
+				1018A8F525B35BD900908C37 /* OFL.txt in Resources */,
+				1018A8EE25B35BD900908C37 /* Kufam-Italic.ttf in Resources */,
+				1018A8E825B35BD900908C37 /* Kufam-Italic-VariableFont_wght.ttf in Resources */,
+				1018A8D025B3448000908C37 /* Lottie in Resources */,
+				1018A8F625B35BD900908C37 /* README.txt in Resources */,
+				1018A8F325B35BD900908C37 /* Kufam-SemiBold.ttf in Resources */,
+				1018A8F025B35BD900908C37 /* Kufam-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1018A8D325B3472500908C37 /* RingView.swift in Sources */,
+				1018A8F925B35C0900908C37 /* Modifiers.swift in Sources */,
+				1018A8CD25B342C400908C37 /* TabBar.swift in Sources */,
+				1018A8C725B32DC100908C37 /* UpdateDetail.swift in Sources */,
 				10A624BA25AB4A90001F090A /* ContentView.swift in Sources */,
 				10CEC48A25ACD12B00F6CFC2 /* MenuView.swift in Sources */,
+				1018A8B825B3275600908C37 /* UpdateList.swift in Sources */,
+				1018A8CA25B3358000908C37 /* UpdateStore.swift in Sources */,
 				10CEC48D25ACD72A00F6CFC2 /* Home.swift in Sources */,
 				10CEC49025ACDEEB00F6CFC2 /* HomeView.swift in Sources */,
 				10A624B825AB4A90001F090A /* DesignCodeApp.swift in Sources */,

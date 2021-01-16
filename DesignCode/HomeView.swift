@@ -15,18 +15,42 @@ import SwiftUI
 
 struct HomeView: View {
     @Binding var showProfile : Bool
+    @State var showUptade = false
     var body: some View {
         VStack {
             HStack {
                 Text("Watching")
-                    .font(.system(size: 28, weight: .bold))
+                    .modifier(CustomFontModifier(size: 28))
                 Spacer()
                 
                 AvatarView(showProfile: $showProfile)
+                
+                Button(action: {
+                    self.showUptade.toggle()
+                }, label: {
+                    Image(systemName: "bell")
+                        .renderingMode(.original)
+                        .font(.system(size: 16, weight: .medium))
+                        .frame(width: 36, height: 36)
+                        .background(Color.white)
+                        .clipShape(Circle())
+                        .shadow(color: Color.black.opacity(0.1), radius: 1, x: 0, y: 1)
+                        .shadow(color: Color.black.opacity(0.2), radius: 20, x: 10, y: 10)
+                    
+                })
+                .sheet(isPresented: $showUptade, content: {
+                    UpdateList()
+                })
             }
             .padding(.horizontal)
             .padding(.leading, 14)
             .padding(.top, 30)
+            
+            ScrollView(.horizontal, showsIndicators : false) {
+                WatchRingViews()
+                    .padding(.horizontal , 30)
+                    .padding(.bottom , 30)
+            }
             
             ScrollView(.horizontal,showsIndicators: false) {
                 HStack(spacing: 30) {
@@ -104,3 +128,41 @@ let sectionData =
         Section(title: "Swift UI Advance", text: "20 Section", logo: "Logo1", image: Image("Card3"), color: Color("card3"))
     ]
 
+
+struct WatchRingViews: View {
+    var body: some View {
+        HStack(spacing: 30.0) {
+            HStack(spacing: 12) {
+                RingView(color1: #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1), color2: #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), width: 44, height: 44, percent: 68, show: .constant(true))
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("6 minutes left")
+                        .modifier(FontModifier(style: .subheadline))
+                    Text("Watched 10 mins today")
+                        .modifier(FontModifier(style: .caption))
+                }
+                .modifier(FontModifier())
+            }
+            .padding(8)
+            .background(Color.white)
+            .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .modifier(ShadowModifier())
+            
+            HStack(spacing: 12) {
+                RingView(color1: #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1), color2: #colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1), width: 33, height: 33, percent: 43, show: .constant(true))
+            }
+            .padding(8)
+            .background(Color.white)
+            .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .modifier(ShadowModifier())
+            
+            HStack(spacing: 12) {
+                RingView(color1: #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1), color2: #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1), width: 33, height: 33, percent: 22, show: .constant(true))
+            }
+            .padding(8)
+            .background(Color.white)
+            .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .modifier(ShadowModifier())
+            
+        }
+    }
+}

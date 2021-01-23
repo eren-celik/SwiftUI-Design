@@ -34,10 +34,11 @@ struct HomeView: View {
                         self.showUptade.toggle()
                     }, label: {
                         Image(systemName: "bell")
-                            .renderingMode(.original)
+                            //.renderingMode(.original)
+                            .foregroundColor(.primary)
                             .font(.system(size: 16, weight: .medium))
                             .frame(width: 36, height: 36)
-                            .background(Color.white)
+                            .background(Color("background3"))
                             .clipShape(Circle())
                             .shadow(color: Color.black.opacity(0.1), radius: 1, x: 0, y: 1)
                             .shadow(color: Color.black.opacity(0.2), radius: 20, x: 10, y: 10)
@@ -93,6 +94,7 @@ struct HomeView: View {
                 
                 Spacer()
             }
+            .frame(width: screen.width)
         }
     }
 }
@@ -168,7 +170,7 @@ struct WatchRingViews: View {
                 .modifier(FontModifier())
             }
             .padding(8)
-            .background(Color.white)
+            .background(Color("background3"))
             .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
             .modifier(ShadowModifier())
             
@@ -176,7 +178,7 @@ struct WatchRingViews: View {
                 RingView(color1: #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1), color2: #colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1), width: 33, height: 33, percent: 43, show: .constant(true))
             }
             .padding(8)
-            .background(Color.white)
+            .background(Color("background3"))
             .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
             .modifier(ShadowModifier())
             
@@ -184,7 +186,7 @@ struct WatchRingViews: View {
                 RingView(color1: #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1), color2: #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1), width: 33, height: 33, percent: 22, show: .constant(true))
             }
             .padding(8)
-            .background(Color.white)
+            .background(Color("background3"))
             .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
             .modifier(ShadowModifier())
             
